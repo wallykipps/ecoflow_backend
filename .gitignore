@@ -1,0 +1,46 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+
+# Django stuff
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Media and static files
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+
+# IDE and editor configs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Celery
+celerybeat-schedule*
+*.pid
+
+# Coverage and testing
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+nosetests.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
